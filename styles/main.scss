@@ -1,0 +1,22 @@
+$MyFont: Arial, Sans-Serif;
+$Mycolor: plum;
+$MytextWidth: 18px;
+$Myh1align: center;
+$Mytextalign: left;
+
+
+body{
+    background-color: $Mycolor;
+    padding:0;
+    margin:0;
+    display:flex;
+}
+.container{
+    text-decoration: $MytextWidth;
+    background-image: $Myimgwidth;
+    text-align: $Myh1align;
+}
+
+.lista{
+    text-align: $Mytextalign;
+}
