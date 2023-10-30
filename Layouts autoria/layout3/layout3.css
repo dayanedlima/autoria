@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    width: 100vw;
+    background-color: #0B2D5B;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 10%;
+}
+
+
+div {
+    display: flex;
+}
+
+.esquerda{
+    height: 100vh;
+    width: 20vw;
+    background-color: #0B2D5B;
+}
+.centro{
+    height: 100vh;
+    width: 80vw;
+    background-color: white;
+}
+.direita{
+    height: 100vh;
+    width: 20vw;
+    background-color: #0B2D5B;
+}
+
+
+
+@media (max-width: 600px){
+
+    .esquerda{
+        display: none;
+    }
+
+    .direita{
+        display: none;
+    }
+
+    .centro{
+        width: 100vw;
+    }
+    
+}

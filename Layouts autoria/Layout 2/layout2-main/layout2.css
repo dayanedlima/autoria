@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #0B2D5B;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 10%;
+}
+
+
+div {
+    display: flex;
+}
+
+
+.esquerda{
+    height: 100vh;
+    width: 20vw;
+    background-color: #0B2D5B;
+}
+
+.centro{
+    height: 100vh;
+    width: vw;
+    background-color: white;
+}
+
+
+@media (max-width: 600px){
+
+    .esquerda{
+        display: none;
+    }
+
+    .centro{
+        width: 800vw;
+    }
+    
+}
